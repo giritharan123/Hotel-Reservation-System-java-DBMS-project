@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="421.0" prefWidth="664.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hotelreservationsystem.HelloController">
+   <bottom>
+      <AnchorPane prefHeight="416.0" prefWidth="665.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="415.0" fitWidth="662.0" layoutX="1.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@hotel checkin 7.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="55.0" layoutY="309.0" style="-fx-background-color: white;" text="Checkin">
+               <font>
+                  <Font name="Segoe UI Italic" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="50.0" layoutY="361.0" style="-fx-background-color: white;" text="Checkout">
+               <font>
+                  <Font name="Segoe UI Italic" size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="RoomtypeTextField" layoutX="500.0" layoutY="311.0" />
+            <TextField fx:id="TotalguestTextField" layoutX="500.0" layoutY="362.0" />
+            <Button layoutX="305.0" layoutY="241.0" mnemonicParsing="false" onAction="#Openuserscene" style="-fx-background-color: #87CEEB;" text="check">
+               <font>
+                  <Font name="Arial Narrow" size="18.0" />
+               </font>
+            </Button>
+            <DatePicker fx:id="CheckinTextField" layoutX="148.0" layoutY="310.0" />
+            <DatePicker fx:id="CheckoutTextField" layoutX="148.0" layoutY="362.0" />
+            <Label layoutX="377.0" layoutY="312.0" style="-fx-background-color: white;" text="Roomtype">
+               <font>
+                  <Font name="Segoe UI Italic" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="375.0" layoutY="363.0" style="-fx-background-color: white;" text="Totalguest">
+               <font>
+                  <Font name="Segoe UI Italic" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </bottom>
+</BorderPane>

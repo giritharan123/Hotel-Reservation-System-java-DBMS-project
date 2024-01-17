@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hotelreservationsystem.HelloController">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="400.0" fitWidth="600.0" layoutX="-4.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@hotel image 2.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="220.0" layoutY="164.0" prefHeight="35.0" prefWidth="335.0" style="-fx-background-color: #FFDEAD;" text="Your Room Was  Booked Successfully!">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="150.0" fitWidth="115.0" layoutX="209.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@downloadfinal.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="button1" layoutX="487.0" layoutY="347.0" mnemonicParsing="false" onAction="#logindetails" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
